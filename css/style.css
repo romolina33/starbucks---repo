@@ -59,3 +59,28 @@
 .header__user-icon {
     display: none;
 }
+
+.main {
+    margin-top: 100px;
+    padding: var(--padding-block);
+    display: flex;
+    flex-direction: column;
+}
+
+.main__tiltle {
+    font-size: 55px; 
+    line-height: 1.2;
+}
+
+.main__paragraph {
+    margin-top: 15px;
+    line-height: 1.7;
+}
+
+.main__tiltle--green {
+    color: var(--bg-header);
+}
+
+.main__cointeiner-logo {
+    display: none
+}
